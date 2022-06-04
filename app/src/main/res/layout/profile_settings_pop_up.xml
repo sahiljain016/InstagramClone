@@ -1,0 +1,214 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/rounded_corners"
+        android:visibility="invisible"
+        android:id="@+id/popupRelLayout"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            android:baselineAligned="false"
+            android:background="@drawable/custom_border_white_transparent"
+            android:id="@+id/linlayout3">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="15">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_profile_settings"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginStart="25dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="85">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Account Settings"
+                    android:textSize="40sp"
+                    android:textColor="@android:color/white"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/linlayout3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:baselineAligned="false"
+                android:background="@drawable/custom_border_white_transparent"
+                android:id="@+id/linlayout4">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_edit_profile"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginStart="25dp"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="85">
+
+                    <Button
+                        android:id="@+id/EditProfileButtonPopup1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:paddingEnd="200dp"
+                        android:text="Edit Profile"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="25sp" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:background="@drawable/custom_border_white_transparent"
+                android:id="@+id/linlayout8"
+                android:layout_below="@id/linlayout4">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_bug_report"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginStart="25dp"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="85">
+
+                    <Button
+                        android:id="@+id/ReportBugButtonPopup2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+
+                        android:paddingStart="15dp"
+                        android:paddingEnd="110dp"
+                        android:text="Report A Bug Found"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="25sp" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:background="@drawable/custom_border_white_transparent"
+                android:id="@+id/linlayout5"
+                android:baselineAligned="false"
+                android:layout_below="@id/linlayout8">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_logout"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginStart="25dp"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="85">
+
+                    <Button
+                        android:id="@+id/logOutButtonPopup1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:paddingEnd="230dp"
+                        android:text="Log Out"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="25sp" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:background="@drawable/custom_border_white_transparent"
+                android:id="@+id/linlayout6"
+                android:baselineAligned="false"
+                android:layout_below="@id/linlayout5">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_profile_popup_close"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginStart="25dp"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="85">
+
+                    <Button
+                        android:id="@+id/closePopUpButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:paddingEnd="155dp"
+                        android:text="Close Settings"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="25sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</merge>

@@ -1,0 +1,36 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="loginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">#000000</item>
+        <item name="android:textColorHighlight">#000000</item>
+        <item name="android:textColorLink">#000000</item>
+        <item name="android:textCursorDrawable">@android:color/black</item>
+    </style>
+    <style name="signUpTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="android:textColorHint">#000000</item>
+    <item name="android:textColorHighlight">#000000</item>
+    <item name="android:textColorLink">#000000</item>
+    <item name="android:textCursorDrawable">@android:color/black</item>
+
+</style>
+    <style name="ConfirmPasswordDialog" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">#FFFFFF</item>
+        <item name="android:textColorHighlight">#000000</item>
+        <item name="android:textColorLink">#000000</item>
+        <item name="android:textCursorDrawable">@android:color/black</item>
+
+    </style>
+
+</resources>

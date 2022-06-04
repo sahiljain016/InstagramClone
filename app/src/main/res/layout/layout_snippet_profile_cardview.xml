@@ -1,0 +1,134 @@
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="276dp"
+            android:layout_height="128dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/custom_border_cardview"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/custom_border_cardview"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="308dp">
+
+                <TextView
+                    android:id="@+id/following"
+                    android:layout_width="52dp"
+                    android:layout_height="23dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text=""
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/followingTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="Following "
+                    android:textColor="#B5B5B5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/following" />
+
+                <TextView
+                    android:id="@+id/followers"
+                    android:layout_width="64dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="8dp"
+                    android:text=""
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/following"
+                    app:layout_constraintHorizontal_bias="0.471"
+                    app:layout_constraintStart_toEndOf="@+id/Posts"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/followersTV"
+                    android:layout_width="108dp"
+                    android:layout_height="19dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Friendly Xavierites"
+                    android:textColor="#B5B5B5"
+                    android:textSize="13sp"
+                    app:layout_constraintBottom_toTopOf="@+id/EditProfileButton"
+                    app:layout_constraintEnd_toStartOf="@+id/followingTV"
+                    app:layout_constraintHorizontal_bias="0.469"
+                    app:layout_constraintStart_toEndOf="@+id/PostsTV"
+                    app:layout_constraintTop_toBottomOf="@+id/followers"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/Posts"
+                    android:layout_width="57dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="10dp"
+                    android:text=""
+                    android:textAlignment="gravity"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/PostsTV"
+                    android:layout_width="59dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:paddingLeft="10dp"
+                    android:text="Posts"
+                    android:textColor="#B5B5B5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/Posts" />
+
+                <Button
+                    android:id="@+id/EditProfileButton"
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/border_edit_profile"
+
+                    android:text="Edit My Profile"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/PostsTV" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</merge>

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">St Xavier\'s Social Club</string>
+    <!--Fragment Titles-->
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+
+    <!-- Fragment Names -->
+    <string name="edit_profile_fragment">Edit Profile</string>
+    <string name="log_out_fragment">Log Out</string>
+    <string name="report_bug_fragment">Report A Bug</string>
+    <string name="profile_fragment">Profile</string>
+
+    <!-- Dialog Names -->
+    <string name="confirm_password_dialog_fragment">ConfirmPasswordDialog</string>
+
+    <!--Firebase Messages -->
+    <string name="auth_failed_login">Something is wrong! Check Credentials Again.</string>
+    <string name="auth_success_login">Log In Successful!</string>
+    <string name="auth_failed_signup">Something is wrong! Sign Up Failed.</string>
+    <string name="auth_success_singup">Sign Up success! Sending Verification Email.</string>
+
+    <!-- Firebase Databases-->
+    <string name="dbname_users">users</string>
+    <string name="dbname_user_account_settings">user_account_settings</string>
+    <string name="field_username">username</string>
+    <string name="field_email">email</string>
+    <string name="field_phoneNumber">phone_number</string>
+    <string name="field_collegeUID">college_uid</string>
+    <string name="field_description">description</string>
+    <string name="field_website">website</string>
+    <string name="field_course">course</string>
+    <string name="field_gender">gender</string>
+    <string name="field_display_name">display_name</string>
+
+    <!-- edit profile strings layout-->
+    <string name="enter_your_phone_number">Enter Your Phone Number</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_username">Enter Your Username</string>
+    <string name="enter_your_website_url">Enter Your Website URL</string>
+    <string name="circle_image_view_edit_profile">circle Image View Edit Profile</string>
+    <string name="change_profile_photo">Change Profile Photo</string>
+    <string name="name">Name</string>
+    <string name="username_ep">Username</string>
+    <string name="website_ep">Website</string>
+    <string name="description_ep">Description</string>
+    <string name="enter_something_about_you">Enter Something About You</string>
+    <string name="private_information">Private Information</string>
+    <string name="email_address_ep">Email Address</string>
+    <string name="enter_your_email_address_ep">Enter Your Email Address</string>
+    <string name="phone_ep">Phone</string>
+    <string name="college_uid_ep">College UID</string>
+    <string name="enter_your_college_uid_number">Enter Your College UID Number</string>
+    <string name="course_ep">Course</string>
+    <string name="enter_the_course_you_are_pursuing">Enter The Course You Are Pursuing</string>
+    <string name="gender_ep">Gender</string>
+    <string name="click_to_enter_your_gender">Enter Your Gender</string>
+</resources>

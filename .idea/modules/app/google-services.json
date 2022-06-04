@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "386222258329",
+    "firebase_url": "https://st-xavier-s-social-club.firebaseio.com",
+    "project_id": "st-xavier-s-social-club",
+    "storage_bucket": "st-xavier-s-social-club.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386222258329:android:6f73e258ebc097aa966008",
+        "android_client_info": {
+          "package_name": "com.gic.instagramclonebysahil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386222258329-6vtr9meqsbrckd329q2mrvq6hcvqgsdi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gic.instagramclonebysahil",
+            "certificate_hash": "5a53895072504f65009767c35993a2ae9a9e9f27"
+          }
+        },
+        {
+          "client_id": "386222258329-btd84g9dchpm0tibij5cdiemsn50gpjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6Bk_JV7MLqdmPN0xL4tDrsNOyvvQhJR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386222258329-btd84g9dchpm0tibij5cdiemsn50gpjg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386222258329:android:73cf6cda7873937f966008",
+        "android_client_info": {
+          "package_name": "com.sahil.StXaviersSocialClub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386222258329-ck9dies370stmjk5ab6nnaq02fb87i86.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sahil.StXaviersSocialClub",
+            "certificate_hash": "5a53895072504f65009767c35993a2ae9a9e9f27"
+          }
+        },
+        {
+          "client_id": "386222258329-btd84g9dchpm0tibij5cdiemsn50gpjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6Bk_JV7MLqdmPN0xL4tDrsNOyvvQhJR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386222258329-btd84g9dchpm0tibij5cdiemsn50gpjg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

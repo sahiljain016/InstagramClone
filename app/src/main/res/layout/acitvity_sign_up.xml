@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/st_xaviers_signup">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintlogosignup"
+        android:layout_width="match_parent"
+        android:layout_height="74dp">
+
+
+        <ImageView
+            android:layout_width="328dp"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+
+            android:background="@drawable/custom_app_title_on_login"
+            android:paddingRight="8dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/app_titl"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/constraintlogosignup"
+        android:focusableInTouchMode="true"
+        android:focusable="true">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="22dp"
+            android:paddingEnd="20dp"
+            android:gravity="center_horizontal"
+            android:theme="@style/signUpTheme"
+
+            app:hintTextColor="@android:color/white"
+            android:hint="Full Name"
+            >
+
+            <EditText
+                android:id="@+id/SignUpFullName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_background_signup"
+                android:inputType="textNoSuggestions"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:textColor="@android:color/black"
+                android:textColorHighlight="#000000"
+                android:textStyle="bold"
+                android:textColorHint="@android:color/black"
+                android:textColorLink="#000000"
+                android:textCursorDrawable="@android:color/black"
+                android:textSize="25sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="22dp"
+            android:paddingRight="20dp"
+            android:gravity="center_horizontal"
+            android:theme="@style/signUpTheme"
+            app:hintTextColor="@android:color/white"
+            android:hint="Email Address"
+            >
+
+            <EditText
+                android:id="@+id/SignUpEmail"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_background_signup"
+
+                android:inputType="textEmailAddress"
+                android:paddingLeft="20dp"
+                android:textColor="@android:color/black"
+                android:textColorHighlight="#000000"
+                android:textColorHint="@android:color/white"
+                android:textColorLink="#000000"
+                android:textCursorDrawable="@android:color/black"
+                android:textSize="25sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="22dp"
+            android:paddingRight="20dp"
+            android:gravity="center_horizontal"
+            android:theme="@style/signUpTheme"
+            app:hintTextColor="@android:color/white"
+            android:hint="Username"
+            >
+
+            <EditText
+                android:id="@+id/SignUpUsername"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_background_signup"
+
+                android:inputType="textNoSuggestions"
+                android:paddingLeft="20dp"
+                android:textColor="@android:color/black"
+                android:textColorHighlight="#000000"
+                android:textColorHint="@android:color/white"
+                android:textColorLink="#000000"
+                android:textCursorDrawable="@android:color/black"
+                android:textSize="25sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="22dp"
+            android:paddingRight="20dp"
+            android:gravity="center_horizontal"
+            android:theme="@style/signUpTheme"
+            app:hintTextColor="@android:color/white"
+            android:hint="Phone number (Optional)"
+            >
+
+            <EditText
+                android:id="@+id/SignUpPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_background_signup"
+                android:maxLength="10"
+                android:inputType="phone"
+                android:paddingLeft="20dp"
+                android:textColor="@android:color/black"
+                android:textColorHighlight="#000000"
+                android:textColorHint="@android:color/white"
+                android:textColorLink="#000000"
+                android:textCursorDrawable="@android:color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="22dp"
+            android:paddingRight="20dp"
+            android:gravity="center_horizontal"
+            android:theme="@style/signUpTheme"
+            app:hintTextColor="@android:color/white"
+            android:hint="College UID/ Roll No (Optional)"
+            >
+
+            <EditText
+                android:id="@+id/SignUpUID"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_background_signup"
+
+                android:inputType="number"
+                android:paddingStart="20dp"
+                android:textColor="@android:color/black"
+                android:textColorHighlight="#000000"
+                android:textColorHint="@android:color/white"
+                android:textColorLink="#000000"
+                android:textCursorDrawable="@android:color/black"
+                android:textSize="22sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="22dp"
+            android:paddingRight="20dp"
+            android:id="@+id/TILpassword"
+            android:gravity="center_horizontal"
+            android:theme="@style/signUpTheme"
+            app:hintTextColor="@android:color/white"
+            android:hint="Password"
+            >
+
+            <EditText
+                android:id="@+id/SignUpPassword"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_background_signup"
+
+                android:inputType="textPassword"
+                android:textColor="@android:color/black"
+                android:textColorHighlight="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textColorLink="#FFFFFF"
+                android:paddingLeft="20dp"
+                android:textSize="25sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="22dp"
+            android:paddingEnd="20dp"
+            android:id="@+id/TILconfirmPassword"
+            android:gravity="center_horizontal"
+            android:theme="@style/signUpTheme"
+            app:hintTextColor="@android:color/white"
+            android:hint="Confirm Password"
+            >
+
+            <EditText
+                android:id="@+id/SignUpCPassword"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_background_signup"
+                android:inputType="textPassword"
+                android:textColor="@android:color/black"
+                android:textColorHighlight="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textColorLink="#FFFFFF"
+                android:paddingStart="20dp"
+                android:textSize="25sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_signUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+         android:layout_marginLeft="12dp"
+            android:layout_marginRight="10dp"
+            android:textSize="18sp"
+            android:background="@drawable/custom_button_login"
+            />
+
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="540dp"
+      android:layout_centerHorizontal="true"
+  android:id="@+id/SignUpButtonProgressBar"      />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/SignUpButtonProgressBar"
+    android:text="Registering. You can fill more details in your profile"
+    android:layout_centerHorizontal="true"
+    android:textStyle="bold"
+android:id="@+id/LoadingSignUpText"
+    android:textSize="17dp"
+    android:textColor="@android:color/white"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Already a Member? Log In"
+        android:textAlignment="center"
+android:id="@+id/linkLogInOnSignUp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_signup_on_login"/>
+</RelativeLayout>

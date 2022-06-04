@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "15949689548",
+    "firebase_url": "https://st-xavier-social-club.firebaseio.com",
+    "project_id": "st-xavier-social-club",
+    "storage_bucket": "st-xavier-social-club.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15949689548:android:e7213b184187f778140869",
+        "android_client_info": {
+          "package_name": "com.sahil.StXaviersSocialClub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15949689548-so0r2u0jaq5ok6fn4gmhqjcbsld53lqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-0z_5eaJ6h8ZlWzoAndVLdfxq6nYfy6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15949689548-so0r2u0jaq5ok6fn4gmhqjcbsld53lqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
